@@ -8,7 +8,7 @@ package spi_pkg;
 	`include "agent/spi_driver.sv"
 	`include "env/spi_scoreboard.sv"
 	`include "agent/spi_monitor.sv"
-	`include "agent/host_monitor.sv"
+	`include "host_agent_passive/host_monitor.sv"
 	`include "agent/spi_sequencer.sv"
 	`include "seq/spi_sequence.sv"
 	`include "env/spi_agent.sv"
